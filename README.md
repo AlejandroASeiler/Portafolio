@@ -87,7 +87,7 @@ flowchart TB
 
 ## 📬 Contacto
 
-👤 **Alejandro Agustin Seiler** – Python & React Developer Trainee  
+👤 **Alejandro Agustin Seiler** – Python & React Developer Junior  
 🌐 [LinkedIn](https://www.linkedin.com/in/alejandroseiler/) | [GitHub](https://github.com/AlejandroASeiler) | [Email](agustinseiler@outlook.com)
 
 ---
