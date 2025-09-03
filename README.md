@@ -86,8 +86,8 @@ Diseñar un **engine centralizado de ML** que:
 
 ## 📬 Contacto
 
-👤 **Agus** – Python & React Developer Trainee  
-🌐 [LinkedIn](#) | [GitHub](#) | [Email](#)
+👤 **Alejandro Agustin Seiler** – Python & React Developer Trainee  
+🌐 [LinkedIn](#https://www.linkedin.com/in/alejandroseiler/) | [GitHub](#https://github.com/AlejandroASeiler) | [Email](#agustinseiler@outlook.com)
 
 ---
 
