@@ -6,7 +6,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
 
 Este repositorio forma parte de mi **portafolio personal**.  
-Incluye el diseño arquitectónico de un **Neural Engine Core** unificado que puede servir como **motor de Machine Learning multi-sistema**, integrándose con plataformas de ciberseguridad, gestión de tareas empresariales y productividad doméstica.
+Presenta el **Neural Engine Core**: un motor unificado de Machine Learning multi-sistema ya implementado, que se integra con plataformas de ciberseguridad, gestión de tareas empresariales y productividad doméstica.
 
 ---
 
@@ -20,7 +20,7 @@ El documento describe:
 - Entrenamiento y despliegue de modelos de ML con PyTorch/TensorFlow.
 - Pipelines de datos, feature store y validación.
 - Estrategias de escalabilidad, optimización de recursos y monitoreo.
-- Próximos pasos para convertir el diseño en un sistema productivo.
+- Ejemplos de integración multi-sistema (xGuardian, x, xHome).
 
 ---
 
@@ -55,32 +55,33 @@ flowchart TB
 
 ---
 
-## 🎯 Objetivo del proyecto
+## 🚀 Estado actual
 
-Diseñar un **engine centralizado de ML** que:
-- Permita a múltiples sistemas cliente **compartir infraestructura** sin perder independencia de datos.  
-- Asegure **aislamiento multi-tenant** y escalabilidad horizontal.  
-- Soporte diferentes tipos de modelos (anomalías, predicción, recomendación, NLP).  
-- Facilite la evolución hacia producción en la nube.  
+- **Neural Engine Core** implementado en **FastAPI**.  
+- Integraciones con sistemas tipo **xGuardian, x y xHome**.  
+- Pipelines de datos con feature store centralizado.  
+- Entrenamiento de modelos con **PyTorch/TensorFlow**.  
+- **Inferencia en producción** con optimización de latencia.  
+- Arquitectura **multi-tenant aislada** para independencia de datos.  
 
 ---
 
-## 🧩 Tecnologías sugeridas
+## 🔭 Futuro y mejoras
+
+- Optimizar pipelines de datos (performance y costos).  
+- Ampliar set de modelos soportados (ej. RL, embeddings semánticos).  
+- Más integraciones con sistemas externos (APIs de terceros, IoT, etc.).  
+- Dashboards de monitoreo y métricas en tiempo real más avanzados.  
+
+---
+
+## 🧩 Tecnologías
 
 - **Backend / APIs** → FastAPI  
 - **ML / Training** → PyTorch, TensorFlow  
 - **Storage** → PostgreSQL, Redis, FileSystem  
 - **Infraestructura** → Docker, Kubernetes (futuro)  
 - **Monitoreo** → Prometheus + Grafana  
-
----
-
-## 🚀 Próximos pasos
-
-- Construcción de un **MVP** con FastAPI + PyTorch.  
-- Implementación de un **pipeline de datos básico** para cada sistema cliente.  
-- Integración con **sistema de autenticación y permisos**.  
-- Despliegue en un entorno cloud con escalado automático.  
 
 ---
 
@@ -92,4 +93,4 @@ Diseñar un **engine centralizado de ML** que:
 ---
 
 > ⚠️ **Nota:** Este proyecto forma parte de un **portafolio personal**.  
-> El documento está simplificado y adaptado para uso público, sin exponer información sensible de negocio ni seguridad.
+> El documento y el README están adaptados para uso público, sin exponer información sensible de negocio ni seguridad.
